@@ -1,0 +1,14 @@
+FLAVORS = [
+    "Banana",
+    "Chocolate",
+    "Lemon",
+    "Pistachio",
+    "Raspberry",
+    "Strawberry",
+    "Vanilla",
+]
+l = len(FLAVORS)
+for i in range(l):
+    for j in range(i+1,l):
+        if(FLAVORS[i]!= FLAVORS[j]):
+            print(FLAVORS[i]+",",FLAVORS[j])
